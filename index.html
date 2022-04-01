@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./investment.png">
+</head>
+<body>
+    <h1>Investment Calculator</h1>
+    <div class="show_details">
+        <h2 class="show_difference"></h2>
+        <h2 class="show_percentage"></h2>
+    </div>
+    <div class="container">
+        <div class="input_container">
+            <div>
+                <input type="number" name="invested" id="invested">
+                <label for="invested">Invested Amount</label>
+            </div>
+            <div>
+                <input type="number" name="current_price" id="current_price">
+                <label for="current_price">Current Price</label>
+            </div>
+        </div>
+        <button class="input_button" type="submit">Check</button>
+    </div>
+    <table class="main_table" style="width: 100%;">
+        <tr>
+            <th>Invested</th>
+            <th>Current</th>
+            <th>Difference</th>
+            <th>Percentage</th>
+        </tr>
+        
+    </table>
+
+    <button class="clear_btn">Clear</button>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
