@@ -193,3 +193,47 @@ tr td:nth-of-type(2){
 th{
     font-size: 1.3rem;
 }
+
+
+@media (max-width: 500px){
+
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .input_container{
+        flex-direction: column;
+    }
+
+    .input_container div{
+        
+        margin: 50px 20px 0 20px;
+    }
+
+    .show_details{
+        display: none;
+        flex-direction: column;
+        margin: 20px 0 15px 0;
+    }
+
+    .show_difference{
+        margin-right: 10px;
+    }
+    
+    .show_percentage{
+        
+        margin-left: 10px;
+    }
+
+    th{
+        font-size: 1rem;
+    }
+
+    .list_td_edit{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 5px 0;
+    }
+}
