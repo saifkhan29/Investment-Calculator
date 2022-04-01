@@ -102,8 +102,7 @@ input_button.addEventListener('click', () => {
     percentage_array.push(percentage)
     console.log(invested_array)
 
-    window.localStorage.setItem('invested', JSON.stringify(invested_array)) 
-    window.localStorage.setItem('current', JSON.stringify(current_array)) 
+    
     
     calculateTheGrowth()
     createListings()
